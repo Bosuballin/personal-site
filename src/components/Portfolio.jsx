@@ -30,6 +30,8 @@ function Portfolio() {
               <a
                 className="portfolio-link"
                 href="https://bosuballin.github.io/ssgame/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 HERE.
               </a>
@@ -51,6 +53,8 @@ function Portfolio() {
               <a
                 className="portfolio-link"
                 href="https://munson-website-demo.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 HERE.
               </a>

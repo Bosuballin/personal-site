@@ -250,3 +250,9 @@ h5 {
   text-decoration: underline;
   color: #8fb8ed;
 }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
