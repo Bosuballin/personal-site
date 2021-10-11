@@ -23,12 +23,12 @@ function Hobbies() {
           <div class="hobby-row m-auto p-5">
             <h3>Graphic Design</h3>
             <p>
-              My passion for design started in grade school where I would often
-              spend recess drawing in my notebook. At home I would often spend
-              my time navigating the internet discovering new avenues of
-              creativity in programs such as Photoshop, Windows Movie Maker, and
-              even novice web design with GeoCities. In time that passion would
-              lead me into web design and development.
+              My passion for design started in grade school where I often spent
+              recess drawing in my notebook. When home I navigated the internet
+              seeking new avenues to foster my creativity with the discovery of
+              Photoshop, Windows Movie Maker, and novice web design using
+              GeoCities. In time those interests would lead me to web
+              development.
             </p>
           </div>
         </Container>

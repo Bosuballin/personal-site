@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel, Container } from "react-bootstrap";
-import Profile from "../images/profile.png";
 import Simonsays from "../images/Simonsays.png";
 import Munsonmusic from "../images/MunsonMusicWebsite.png";
 import Todolist from "../images/ToDoListApp.png";
@@ -17,7 +16,7 @@ function Portfolio() {
       <Carousel fade className="portfolio-container mt-5 pt-4">
         <Carousel.Item>
           <img
-            className="d-block m-auto carousel-img"
+            className="d-block mx-auto carousel-img"
             src={Simonsays}
             alt="First slide"
           />
@@ -40,7 +39,7 @@ function Portfolio() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block m-auto carousel-img"
+            className="d-block mx-auto carousel-img"
             src={Munsonmusic}
             alt="Second slide"
           />
@@ -63,7 +62,7 @@ function Portfolio() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block m-auto carousel-img"
+            className="d-block mx-auto carousel-img"
             src={Todolist}
             alt="Third slide"
           />
@@ -78,7 +77,7 @@ function Portfolio() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block m-auto carousel-img"
+            className="d-block mx-auto carousel-img"
             src={Newsletter}
             alt="Third slide"
           />
@@ -93,17 +92,15 @@ function Portfolio() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block m-auto carousel-img"
+            className="d-block mx-auto carousel-img"
             src={Blog}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Blog Web App Template</h3>
+            <h3>Blog App Template</h3>
             <p>
-              A web app made using Nodejs, Express, MongoDB and Mongoose. Allows
-              for creation and listing of daily blog posts and displaying them
-              on the main page.
+              A blog web app made using Nodejs, Express, MongoDB and Mongoose.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
