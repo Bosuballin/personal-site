@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Splash from "./components/Splash";
+import CV from "./components/CV";
+import Footer from "./components/Footer";
+import HorizontalBarChart from "./components/Skills";
+import Hobbies from "./components/Hobbies";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Splash />
+      <Portfolio />
+      <CV />
+      <HorizontalBarChart />
+      <Hobbies />
+      <Footer />
+    </>
   );
 }
 
 export default App;
+
+{
+  /* <div
+        className="landing-wrapper bg-image"
+        style={{ backgroundImage: `url(${})` }}
+      > */
+}
+{
+  /* </div> */
+}

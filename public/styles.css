@@ -1,0 +1,252 @@
+a:link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+hr {
+  color: transparent !important;
+}
+
+h5 {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+}
+
+.landing-wrapper {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-scroll {
+  position: fixed;
+  color: white;
+  font-size: 2rem;
+  bottom: 20px;
+  right: 50%;
+}
+
+.card-text-lg {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+.card-text-md {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, black, transparent);
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.splash-title {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8rem !important;
+  font-weight: 500 !important;
+}
+
+@media {
+  .btn-scroll {
+    animation: beat 1.5s infinite alternate;
+    animation-delay: 12s;
+  }
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}
+
+.fab {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.footer-social-ul {
+  display: inline;
+}
+
+.footer-social-li {
+  display: inline;
+}
+
+.custom-link {
+  color: white !important;
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+  text-decoration: none;
+}
+
+.chart-header {
+  text-align: center !important;
+}
+
+.skills-title {
+  color: white;
+  font-size: 4rem;
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.cv-container {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.cv-hr {
+  color: white !important;
+  border-style: none !important;
+}
+
+.space-hr {
+  margin-top: 100px !important;
+}
+
+.hobbies-title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.hobby-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.hobby-container {
+  text-align: center;
+}
+
+.model-3d {
+  height: 400px;
+  width: 700px;
+}
+
+.obs-img {
+  height: 400px;
+  width: 700px;
+}
+
+.carousel-item {
+  height: 900px !important;
+}
+
+.carousel-img {
+  max-width: 50% !important;
+  min-height: 500px !important;
+  object-fit: cover !important;
+}
+
+.invis {
+  visibility: hidden !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .splash-container {
+    min-height: 700px !important;
+  }
+
+  .splash-title {
+    font-size: 10vw !important;
+  }
+
+  .splash-typing {
+    font-size: 8vw !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1,
+  h2,
+  h4 {
+    font-size: 8vw !important;
+  }
+
+  h3 {
+    font-size: 6.5vw !important;
+  }
+
+  h5 {
+    font-size: 5.5vw !important;
+  }
+
+  body {
+    font-size: 4vw !important;
+  }
+
+  .carousel-img {
+    max-width: 100% !important;
+  }
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.25
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.footer-link {
+  color: white;
+}
+
+.copy-link {
+  font-size: 20px !important;
+  color: white;
+}
+
+.portfolio-link {
+  color: white;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+  color: #8fb8ed;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #8fb8ed;
+}
+
+.footer-icon:hover {
+  color: #8fb8ed;
+}
+
+.copy-link:hover {
+  text-decoration: underline;
+  color: #8fb8ed;
+}
