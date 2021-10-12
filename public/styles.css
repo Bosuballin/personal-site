@@ -263,30 +263,39 @@ body {
   } */
   .carousel-caption {
     position: relative !important;
-    bottom: 1% !important;
+    bottom: 11.5px !important;
     left: 0% !important;
   }
 
   .carousel-indicators [data-bs-target] {
     position: relative;
-    top: -430px;
+    top: -500px;
   }
 
   #cv {
     margin-top: -200px !important;
   }
+
+  .carousel-img {
+    min-height: 410px !important;
+  }
+
+  .nav-img {
+    margin: 0 !important;
+  }
+  .splash-container {
+    min-height: 560px !important;
+  }
 }
 
+#collapsable-nav-dropdown {
+  color: white !important;
+}
 /* Mobile Fixes
 
 NAVBAR:
 Navbar Name not centered on mobile,
 Change Hamburger Drop Down Link Font Color to be more visible
 
-Portfolio:
-Portfolio images and text not viewable at the same time on mobile, possibly resize carousel image
-Portfolio Carousel arrows not viewable on white image background
-
 Hobbies:
-Design text might have different margins then the rest. Looks weird mobile. Adjust.
 Possibly reduce margins for all hobby text to allow more to be readable on each line. */

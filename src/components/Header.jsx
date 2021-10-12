@@ -1,5 +1,5 @@
-import React, { Profiler } from "react";
-import { Nav, Navbar, NavDropdown, Container, Image } from "react-bootstrap";
+import React from "react";
+import { Nav, Navbar, Container, Image } from "react-bootstrap";
 import Profile from "../images/profile.png";
 
 function Header() {
@@ -7,30 +7,25 @@ function Header() {
     <Navbar collapseOnSelect expand="lg" fixed="top" variant="dark">
       <Container>
         <Navbar.Brand href="#hello">
-          <Image src={Profile} width="70" className="me-4" fluid />
+          <Image src={Profile} width="40" fluid />
         </Navbar.Brand>
-        <Navbar.Text>Beau Behrends</Navbar.Text>
+        <Navbar.Brand>Beau Behrends</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="m-auto">
-            <Nav.Link href="#hello">Hello</Nav.Link>
-            <Nav.Link href="#cv">CV</Nav.Link>
-            <NavDropdown
-              alignCenter
-              title="Portfolio"
-              id="collasible-nav-dropdown"
-            >
-              <NavDropdown.Item href="#skills">Skills</NavDropdown.Item>
-              <NavDropdown.Item href="#cv">Github</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#cv">Contact Me</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#hobbies">HOBBIES</Nav.Link>
-            <Nav.Link eventKey={2} href="#socials">
-              SOCIALS
+          <Nav className="ms-auto">
+            <Nav.Link id="nav-about" href="#hello">
+              about
             </Nav.Link>
+            <Nav.Link id="nav-portfolio" href="#portfolio">
+              portfolio
+            </Nav.Link>
+            <Nav.Link id="nav-contact" href="#cv">
+              contact
+            </Nav.Link>
+            <Nav.Link id="nav-hobbies" href="#hobbies">
+              hobbies
+            </Nav.Link>
+            <Nav.Link href="#socials">socials</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

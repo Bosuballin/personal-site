@@ -5,11 +5,11 @@ const date = new Date().getFullYear();
 
 function Footer() {
   return (
-    <footer className="page-footer font-small text-white pt-4 bg-dark footer-styles">
+    <footer className="page-footer font-small text-white pt-3 bg-dark footer-styles">
       <div className="container-fluid text-center text-md-left">
         <div className="row">
-          <div className="col-md-6 mt-md-0">
-            <h5 className="text-uppercase">Follow:</h5>
+          <div className="col-md-6">
+            <h5 className="text-uppercase p-auto">Follow:</h5>
             <ul id="socials">
               <li className="footer-social-li px-2">
                 <a href="https://www.linkedin.com/in/beau-behrends/">

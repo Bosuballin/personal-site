@@ -15,12 +15,8 @@ function Hobbies() {
       <hr className="my-5"></hr>
       <Row>
         <Container className="hobby-container col-lg-6">
-          <img
-            class="design-img zoom m-auto p-3"
-            src={design}
-            alt="customdesign-pic"
-          />
-          <div class="hobby-row m-auto p-5">
+          <img class="design-img zoom" src={design} alt="customdesign-pic" />
+          <div class="hobby-row">
             <h3>Graphic Design</h3>
             <p>
               My passion for design started in grade school where I often spent
@@ -51,7 +47,7 @@ function Hobbies() {
       <Row>
         <Container className="hobby-container col-lg-6">
           <img class="obs-img zoom" src={OBS} alt="obs-pic" />
-          <div class="hobby-row p-auto">
+          <div class="hobby-row">
             <h3>Video & Sound Production</h3>
             <p>
               Creating music and video content for people who share the same
@@ -64,7 +60,7 @@ function Hobbies() {
 
         <Container className="hobby-container col-lg-6">
           <img class="model-3d zoom" src={Model3D} alt="custompc-pic" />
-          <div class="hobby-row p-auto">
+          <div class="hobby-row">
             <h3>3D Art & Animation</h3>
             <p>
               My first experience with 3D art was in highschool using Poser.

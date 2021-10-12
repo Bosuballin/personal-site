@@ -22,7 +22,7 @@ function Portfolio() {
           />
 
           <Carousel.Caption>
-            <h3>Simon Says Javascript Game</h3>
+            <h3>Simon Says Game</h3>
             <p>
               A simple game of Simon says coded using Javascript that runs in
               your browser! Check it out{" "}
