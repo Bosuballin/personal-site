@@ -177,6 +177,18 @@ body {
   visibility: hidden !important;
 }
 
+@media screen and (min-width: 1000px) {
+  .zoom {
+    transition: transform 0.2s; /* Animation */
+  }
+
+  .zoom:hover {
+    transform: scale(
+      1.25
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .splash-container {
     min-height: 700px !important;
@@ -213,16 +225,6 @@ body {
   .carousel-img {
     max-width: 100% !important;
   }
-}
-
-.zoom {
-  transition: transform 0.2s; /* Animation */
-}
-
-.zoom:hover {
-  transform: scale(
-    1.25
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .footer-link {
