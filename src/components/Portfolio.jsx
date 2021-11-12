@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Container } from "react-bootstrap";
-import Simonsays from "../images/Simonsays.png";
+import D2bot from "../images/2bot.png";
 import Munsonmusic from "../images/MunsonMusicWebsite.png";
 import Todolist from "../images/ToDoListApp.png";
 import Newsletter from "../images/NewsletterApp.png";
@@ -17,22 +17,22 @@ function Portfolio() {
         <Carousel.Item>
           <img
             className="d-block mx-auto carousel-img"
-            src={Simonsays}
+            src={D2bot}
             alt="First slide"
           />
 
           <Carousel.Caption>
-            <h3>Simon Says Game</h3>
+            <h3>2Bot Discord Bot</h3>
             <p>
-              A simple game of Simon says coded using Javascript that runs in
-              your browser! Check it out{" "}
+              2Bot was created with Node.js, JavaScript, and Puppeteer. It aims
+              to offers quality of life commands for games and related media.{" "}
               <a
                 className="portfolio-link"
-                href="https://bosuballin.github.io/ssgame/"
+                href="https://d-2bot.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                HERE.
+                Click here.
               </a>
             </p>
           </Carousel.Caption>
@@ -55,7 +55,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                HERE.
+                Click here.
               </a>
             </p>
           </Carousel.Caption>

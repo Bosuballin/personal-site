@@ -260,9 +260,6 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  /* .carousel-item {
-    height: 500px !important;
-  } */
   .carousel-caption {
     position: relative !important;
     bottom: 11.5px !important;
@@ -293,6 +290,7 @@ body {
 #collapsable-nav-dropdown {
   color: white !important;
 }
+
 /* Mobile Fixes
 
 NAVBAR:
