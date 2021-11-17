@@ -89,7 +89,7 @@ const HorizontalBarChart = () => (
   <>
     <Container className="chart-container">
       <div id="skills" className="chart-header">
-        <h1 className="skills-title align-center my-5 pt-2 pb-5">Skills</h1>
+        <h2 className="skills-title align-center my-2 pt-2 pb-5">Skills</h2>
         <div className="links"></div>
       </div>
       <Bar data={data} options={options} />

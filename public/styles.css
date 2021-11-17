@@ -1,5 +1,5 @@
 a:link {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -15,7 +15,7 @@ hr {
 }
 
 h5 {
-  font-size: 1.5rem !important;
+  font-size: 1rem !important;
   font-weight: 600 !important;
 }
 
@@ -23,6 +23,24 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.portfolio-container {
+  max-height: 725px !important;
+}
+
+.splash-image {
+  opacity: 50%;
+}
+
+.carousel-caption {
+  position: absolute !important;
+  bottom: 22% !important;
+}
+
+.carousel-indicators {
+  position: absolute !important;
+  bottom: 19% !important;
 }
 
 .landing-wrapper {
@@ -75,7 +93,7 @@ body {
   left: 10%;
   top: 15%;
   font-family: "Montserrat", sans-serif;
-  font-size: 8rem !important;
+  font-size: 5rem !important;
   font-weight: 500 !important;
 }
 
@@ -118,7 +136,7 @@ body {
 
 .skills-title {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center !important;
   margin: auto !important;
 }
@@ -139,7 +157,7 @@ body {
 }
 
 .hobbies-title {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -177,16 +195,8 @@ body {
   visibility: hidden !important;
 }
 
-@media screen and (min-width: 1000px) {
-  .zoom {
-    transition: transform 0.2s; /* Animation */
-  }
-
-  .zoom:hover {
-    transform: scale(
-      1.25
-    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+.splash-typing {
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -219,11 +229,35 @@ body {
   }
 
   body {
-    font-size: 4vw !important;
+    font-size: 3vw !important;
   }
 
   .carousel-img {
     max-width: 100% !important;
+  }
+
+  #root
+    > div.portfolio-container.mt-5.pt-4.carousel.slide.carousel-fade
+    > a.carousel-control-prev
+    > span.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 3%;
+  }
+
+  #root
+    > div.portfolio-container.mt-5.pt-4.carousel.slide.carousel-fade
+    > a.carousel-control-next
+    > span.carousel-control-next-icon {
+    position: absolute;
+    bottom: 3%;
+  }
+
+  .carousel-indicators {
+    opacity: 0%;
+  }
+
+  .portfolio-container {
+    max-height: 575px !important;
   }
 }
 
@@ -291,11 +325,7 @@ body {
   color: white !important;
 }
 
-/* Mobile Fixes
-
-NAVBAR:
-Navbar Name not centered on mobile,
-Change Hamburger Drop Down Link Font Color to be more visible
-
-Hobbies:
-Possibly reduce margins for all hobby text to allow more to be readable on each line. */
+#hello {
+  max-width: 85%;
+  margin: auto;
+}

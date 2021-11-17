@@ -8,10 +8,10 @@ import { Container, Row, Col } from "react-bootstrap";
 function Hobbies() {
   return (
     <>
-      <hr className="my-5"></hr>
-      <h1 id="hobbies" class="hobbies-title">
+      <hr className="my-3"></hr>
+      <h2 id="hobbies" class="hobbies-title">
         My Hobbies
-      </h1>
+      </h2>
       <hr className="my-5"></hr>
       <Row>
         <Container className="hobby-container col-lg-6">

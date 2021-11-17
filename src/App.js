@@ -21,13 +21,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <div
-        className="landing-wrapper bg-image"
-        style={{ backgroundImage: `url(${})` }}
-      > */
-}
-{
-  /* </div> */
-}

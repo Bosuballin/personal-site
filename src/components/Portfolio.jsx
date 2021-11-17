@@ -9,7 +9,7 @@ import Blog from "../images/BlogTemplate.png";
 function Portfolio() {
   return (
     <>
-      <Container id="portfolio" className="py-5 cv-container">
+      <Container id="portfolio" className="py-3 cv-container">
         <h1 className="mt-4 pt-5 cv-heading">Check out my work.</h1>
       </Container>
 
@@ -22,10 +22,11 @@ function Portfolio() {
           />
 
           <Carousel.Caption>
-            <h3>2Bot Discord Bot</h3>
+            <h3>2Bot</h3>
             <p>
-              2Bot was created with Node.js, JavaScript, and Puppeteer. It aims
-              to offers quality of life commands for games and related media.{" "}
+              A discord bot created with Node.js, JavaScript, and Puppeteer. It
+              aims to offers quality of life commands for games and related
+              media.{" "}
               <a
                 className="portfolio-link"
                 href="https://d-2bot.herokuapp.com/"
@@ -105,7 +106,6 @@ function Portfolio() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <hr id="cv" className="space-hr"></hr>
     </>
   );
 }

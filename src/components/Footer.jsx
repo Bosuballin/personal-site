@@ -9,7 +9,7 @@ function Footer() {
       <div className="container-fluid text-center text-md-left">
         <div className="row">
           <div className="col-md-6">
-            <h5 className="text-uppercase p-auto">Follow:</h5>
+            <h5 className="text-uppercase p-auto">Follow</h5>
             <ul id="socials">
               <li className="footer-social-li px-2">
                 <a href="https://www.linkedin.com/in/beau-behrends/">

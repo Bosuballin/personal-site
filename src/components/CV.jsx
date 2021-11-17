@@ -1,4 +1,4 @@
-import React, { useState } from "react-bootstrap";
+import React from "react-bootstrap";
 import {
   Container,
   Col,
@@ -8,7 +8,6 @@ import {
   Form,
   Button,
 } from "react-bootstrap";
-import Profile from "../images/profile.png";
 
 function CV() {
   return (
