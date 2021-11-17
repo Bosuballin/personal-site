@@ -3,7 +3,7 @@ import custompc from "../images/custompc.png";
 import design from "../images/design2.png";
 import Model3D from "../images/model3d.png";
 import OBS from "../images/OBS.png";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 function Hobbies() {
   return (

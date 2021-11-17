@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
-import Capture from "../images/capturecreativity.png";
+import Capture from "../images/capturecreativity2.png";
 import Typing from "./Typing";
 
 function Splash() {

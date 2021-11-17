@@ -26,7 +26,7 @@ body {
 }
 
 .portfolio-container {
-  max-height: 725px !important;
+  max-height: 730px !important;
 }
 
 .splash-image {
@@ -35,12 +35,12 @@ body {
 
 .carousel-caption {
   position: absolute !important;
-  bottom: 22% !important;
+  bottom: 20% !important;
+  background-color: black !important;
 }
 
 .carousel-indicators {
-  position: absolute !important;
-  bottom: 19% !important;
+  opacity: 0% !important;
 }
 
 .landing-wrapper {
@@ -241,7 +241,7 @@ body {
     > a.carousel-control-prev
     > span.carousel-control-prev-icon {
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
   }
 
   #root
@@ -249,7 +249,7 @@ body {
     > a.carousel-control-next
     > span.carousel-control-next-icon {
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
   }
 
   .carousel-indicators {
@@ -257,7 +257,7 @@ body {
   }
 
   .portfolio-container {
-    max-height: 575px !important;
+    max-height: 580px !important;
   }
 }
 

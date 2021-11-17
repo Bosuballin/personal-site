@@ -33,7 +33,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Click here.
+                View page.
               </a>
             </p>
           </Carousel.Caption>
@@ -56,7 +56,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Click here.
+                View page.
               </a>
             </p>
           </Carousel.Caption>
